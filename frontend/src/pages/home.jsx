@@ -6,7 +6,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/blogs")
+      .get("https://blog-project-1tyq.onrender.com/api/blogs")
       .then((response) => {
         setBlogs(response.data);
       })
